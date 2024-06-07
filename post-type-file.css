@@ -1,0 +1,58 @@
+
+    .autocomplete {
+        position: relative;
+        display: inline-block;
+        width: 100%; /* Ensures the container takes the full width of its parent */
+    }
+
+    input {
+        border: 1px solid transparent;
+        background-color: #f1f1f1;
+        padding: 10px;
+        font-size: 16px;
+        box-sizing: border-box; /* Ensures padding is included in the width calculation */
+    }
+
+    /* Update this part to control the length of the input box */
+    input[type=text] {
+        background-color: #f1f1f1;
+        width: 100%; /* Makes the input box take the full width of its container */
+        max-width: 600px; /* Set a maximum width for larger screens */
+    }
+
+    input[type=submit] {
+        background-color: DodgerBlue;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .autocomplete-items {
+        position: absolute;
+        border: 1px solid #d4d4d4;
+        border-bottom: none;
+        border-top: none;
+        z-index: 99;
+        /* Set max height and enable scrolling */
+        max-height: 100px;
+        overflow-y: auto;
+        width: 100%; /* Makes the suggestion box take the full width of its container */
+        max-width: 600px; /* Set a maximum width for larger screens */
+    }
+
+    .autocomplete-items div {
+        padding: 10px;
+        cursor: pointer;
+        background-color: #fff;
+        border-bottom: 1px solid #d4d4d4;
+    }
+
+    .autocomplete-items div:hover {
+        background-color: #e9e9e9;
+    }
+
+    .autocomplete-active {
+        background-color: DodgerBlue !important;
+        color: #ffffff;
+    }
