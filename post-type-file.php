@@ -6,6 +6,7 @@ Description: This plugin helps you display values to your user as a response to 
 Author: Skidam
 Version: 1.0.0
 Author URI: https://github.com/Skidam/
+Author URI: https://github.com/Skidam/
 */
 
 // Exit if accessed directly
@@ -134,5 +135,6 @@ function enqueue_cf7_submission_scripts() {
     ));
 }
 add_action('wp_enqueue_scripts', 'enqueue_cf7_submission_scripts');
+
 
 ?>
