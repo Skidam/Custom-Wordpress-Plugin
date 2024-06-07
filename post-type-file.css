@@ -35,7 +35,7 @@
         border-top: none;
         z-index: 99;
         /* Set max height and enable scrolling */
-        max-height: 100px;
+        max-height: 120px;
         overflow-y: auto;
         width: 100%; /* Makes the suggestion box take the full width of its container */
         max-width: 600px; /* Set a maximum width for larger screens */
