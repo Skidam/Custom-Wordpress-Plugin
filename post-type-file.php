@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Post Type Search
-Plugin URI: https://google.com/
-Description: This is a Custom Plugin.
-Author: Agents Automated
+Plugin URI: hhttps://github.com/Skidam/Custom-Wordpress-Plugin
+Description: This plugin helps you display values to your user as a response to theier input , it checks if thier input is availale in the WP Table Plugin, it Available it output all the row of the matched valu.
+Author: Skidam
 Version: 1.0.0
-Author URI: http://google.com/
+Author URI: https://github.com/Skidam/
 */
 
 // Exit if accessed directly
@@ -134,4 +134,5 @@ function enqueue_cf7_submission_scripts() {
     ));
 }
 add_action('wp_enqueue_scripts', 'enqueue_cf7_submission_scripts');
+
 ?>
